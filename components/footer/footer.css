@@ -1,14 +1,14 @@
-footer {
+.footer {
   text-align: center;
 }
 
-footer h2 {
+.footer__title {
   font-weight: 500;
   font-size: 38px;
   line-height: 48px;
 }
 
-footer p {
+.footer__text {
   display: inline-block;
   width: 640px;
   font-weight: 400;
