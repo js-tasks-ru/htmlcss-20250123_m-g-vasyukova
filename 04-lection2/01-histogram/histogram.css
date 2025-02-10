@@ -1,36 +1,12 @@
-.card {
-  align-items: center;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 70px;
-
-  width: 350px;
-  height: 367px;
-  border-radius: 12px;
-  background-color: var(--white);
-  padding: 32px 25px;
-  box-shadow: 0px 2px 4px 0px #2124290d;
-}
-
-.card__preview {
+.graph {
   display: flex;
   flex-direction: column;
   gap: 39px;
 
-  width: 300px;
+  /* width: 300px; */
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   padding: 24px;
-}
-
-.card__title {
-  color: var(--black);
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .graph__quantity {
