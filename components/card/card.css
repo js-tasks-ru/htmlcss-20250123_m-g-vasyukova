@@ -1,13 +1,4 @@
-.preview__grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 68px 0 204px;
-}
-
 .card {
-  align-items: center;
-
   display: flex;
   flex-direction: column;
 
@@ -29,6 +20,7 @@
   font-weight: 500;
   font-size: 21px;
   line-height: 24.61px;
+  text-align: center;
 }
 
 /* .card__button {

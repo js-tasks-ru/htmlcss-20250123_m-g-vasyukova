@@ -2,4 +2,11 @@
   /* height: 1036px; */
   background: #f9fafc;
   border: 1px solid #dde2e5;
+  padding: 68px 0 204px;
+}
+
+.main__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
