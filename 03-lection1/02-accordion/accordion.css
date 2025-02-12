@@ -41,7 +41,7 @@
   line-height: 24px;
 
   margin: 0;
-  padding: 16px 0;
+  padding: 16px 0px 8px;
 }
 
 .accordion__summary::-webkit-details-marker {
