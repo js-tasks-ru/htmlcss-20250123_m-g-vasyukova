@@ -6,7 +6,7 @@
   /* width: 300px; */
   border: 1px solid var(--grey-3);
   border-radius: 8px;
-  padding: 24px;
+  padding: 16px 24px 24px;
 }
 
 .graph__quantity {
@@ -23,6 +23,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  padding-top: 3px;
 }
 
 .graph__description {
@@ -31,7 +32,7 @@
 }
 
 .graph__title {
-  padding: 0 0 6px 0;
+  margin-bottom: 6px;
 }
 
 .graph__preview {
