@@ -15,10 +15,8 @@
   padding: 36px 0;
 }
 
-.main__grid_component {
+.main_component.main__grid {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 56px;
 }
-
-

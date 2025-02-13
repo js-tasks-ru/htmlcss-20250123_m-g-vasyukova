@@ -24,7 +24,7 @@
   background: var(--grey-1);
 }
 
-.footer__title_component {
+.footer_component.footer__title {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.04em;
