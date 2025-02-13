@@ -23,6 +23,12 @@
 
   --primary: var(--blue);
   --secondary: var(--purple);
+
+  --calendar-title: #334d6e;
+  --calendar-day-of-month: #334d6e;
+  --calendar-day-of-week: #90a0b7;
+  --calendar-day_selected: #4263eb;
+  --calendar-day_selected-inner: rgba(160, 177, 245, 0.2);
 }
 
 html,
