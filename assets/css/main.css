@@ -5,6 +5,8 @@
 @import '../../components/page/page.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
+@import '../../components/component/component.css';
+@import '../../components/menu/menu.css';
 
 :root {
   --white: #ffffff;
@@ -18,6 +20,8 @@
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
+
+  --active-link: #d84910;
 
   --error: var(--red);
   --success: var(--blue);
