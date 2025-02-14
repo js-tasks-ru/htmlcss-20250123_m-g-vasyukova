@@ -1,11 +1,13 @@
 @import '../fonts/fonts.css';
+@import '../css/modern-normalize.css';
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
 @import '../../components/page/page.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
-@import '../css/modern-normalize.css';
+@import '../../components/component/component.css';
+@import '../../components/menu/menu.css';
 @import '../../03-lection1/01-button/button.css';
 
 :root {
@@ -14,12 +16,12 @@
   --pink: #f784ad;
   --purple: #7048e8;
   --blue: #374fc7;
+  --tooltip: #4263eb;
   --red: #f03d3e;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
-
   --dark-blue: #334D6E;
 
   --error: var(--red);
@@ -27,6 +29,13 @@
 
   --primary: var(--blue);
   --secondary: var(--purple);
+    
+  --active-link: #d84910;
+  --calendar-title: #334d6e;
+  --calendar-day-of-month: #334d6e;
+  --calendar-day-of-week: #90a0b7;
+  --calendar-day_selected: #4263eb;
+  --calendar-day_selected-inner: rgba(160, 177, 245, 0.2);
 }
 
 html,

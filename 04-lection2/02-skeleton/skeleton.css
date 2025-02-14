@@ -1,0 +1,49 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  border-radius: 8px;
+  border: 1px solid var(--grey-3);
+  background: var(--white);
+  padding: 24px 40px 32px 24px;
+}
+
+.skeleton__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--grey-2);
+}
+
+.skeleton__line {
+  height: 20px;
+  background: linear-gradient(
+    92.51deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
+}
+.skeleton__line_size_s {
+  width: 30%;
+}
+.skeleton__line_size_m {
+  width: 50%;
+}
+/* .skeleton__line_size_l {
+  flex: auto;
+} */
+
+.skeleton__group {
+  display: flex;
+  gap: 16px;
+}
+
+.skeleton__group_column {
+  flex-direction: column;
+  gap: 8px;
+  flex: auto;
+}
