@@ -1,9 +1,6 @@
 .modal {
   display: none;
-}
-
-.modal__wrapper {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -26,9 +23,8 @@
 
 .modal__close {
   position: absolute;
-  left: calc(100% - 12px);
+  right: 12px;
   top: 12px;
-  transform: translateX(-100%);
 }
 
 .modal__title {
