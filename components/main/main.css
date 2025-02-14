@@ -19,4 +19,24 @@
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 56px;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 24px 0;
+  }
+
+  .main__grid {
+    gap: 23px 16px;
+  }
+
+  .main_component {
+    background: var(--white);
+  }
+
+  .main_component.main__grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
 }
