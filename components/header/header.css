@@ -13,3 +13,21 @@
 .header_component {
   padding: 41px 0;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 96px 0 69px;
+  }
+
+  .header__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+  }
+
+  .header_component {
+    padding: 32px 0;
+    background: var(--grey-1);
+  }
+}

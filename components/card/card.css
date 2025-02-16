@@ -23,6 +23,26 @@
   text-align: center;
 }
 
-/* .card__button {
-  margin-top: 20px;
-} */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 164px;
+    height: 210px;
+    border-radius: 8px;
+    padding: 0;
+  }
+
+  .card__preview {
+    border-bottom: 1px solid var(--grey-2);
+  }
+
+  .card__title {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

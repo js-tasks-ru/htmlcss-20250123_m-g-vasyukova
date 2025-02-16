@@ -32,3 +32,9 @@
 .menu__nav-link:active {
   color: var(--active-link);
 }
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
