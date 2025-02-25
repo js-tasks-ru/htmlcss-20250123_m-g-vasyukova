@@ -7,6 +7,7 @@
 .main__grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -15,7 +16,7 @@
   padding: 36px 0;
 }
 
-.main_component.main__grid {
+.main_component .main__grid {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 56px;
@@ -35,7 +36,7 @@
     background: var(--white);
   }
 
-  .main_component.main__grid {
+  .main_component .main__grid {
     grid-template-columns: 1fr;
     padding: 0;
   }
