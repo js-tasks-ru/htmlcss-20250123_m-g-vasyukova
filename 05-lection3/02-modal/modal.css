@@ -22,9 +22,12 @@
 }
 
 .modal__close {
+  width: 16px;
+  height: 16px;
   position: absolute;
   right: 12px;
   top: 12px;
+  color: var(--grey-4);
 }
 
 .modal__title {

@@ -6,6 +6,12 @@
   /* margin: 100px 0 0 100px; */
 }
 
+.tooltip__icon {
+  width: 24px;
+  height: 24px;
+  color: var(--black);
+}
+
 .tooltip__text {
   font-family: Inter;
   font-weight: 400;
